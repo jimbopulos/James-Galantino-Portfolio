@@ -1,3 +1,7 @@
 * {
     border-style: border-box;
 }
+
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: rgb(140, 86, 226);
+}
