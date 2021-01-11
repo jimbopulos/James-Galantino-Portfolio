@@ -2,8 +2,8 @@
     border-style: border-box;
 }
 
-.navbar.navbar-expand-lg.navbar-light {
-    background-color: rgb(156, 136, 241);
+.navbar.navbar-expand-lg.navbar-dark {
+    background-color: rgba(220, 20, 20, 0.438);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
