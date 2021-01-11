@@ -8,13 +8,13 @@
 }
 
 /* Created class to confine img to specific dimensions, etc */
-.rounded.float-left {
+.rounded.float-start {
     width: 200px;
     height: 200px;
 }
 
 /* Created class to confine img to specific dimensions, etc */
-.rounded.float-right {
+.rounded.float-end {
     width: 200px;
     height: 200px;
 }
