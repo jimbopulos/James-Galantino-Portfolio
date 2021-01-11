@@ -11,6 +11,7 @@ body {
 .container {
     background-color: firebrick;
     color: ghostwhite;
+    border-radius: 5px;
 }
 
 form {
