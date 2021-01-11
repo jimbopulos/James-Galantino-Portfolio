@@ -7,11 +7,14 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Created class to confine img to specific dimensions */
+/* Created class to confine img to specific dimensions, etc */
 .rounded.float-left {
-    max-width: 80%;
+    max-width: 50%;
+    float: left;
 }
 
+/* Created class to confine img to specific dimensions, etc */
 .rounded.float-right {
-    max-width: 80%;
+    max-width: 50%;
+    float: right;
 }
