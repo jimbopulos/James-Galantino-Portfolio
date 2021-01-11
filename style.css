@@ -9,14 +9,12 @@
 
 /* Created class to confine img to specific dimensions, etc */
 .rounded.float-left {
-    margin: auto;
-    max-width: 50%;
-    float: left;
+    width: 200px;
+    height: 200px;
 }
 
 /* Created class to confine img to specific dimensions, etc */
 .rounded.float-right {
-    margin: auto;
-    max-width: 50%;
-    float: right;
+    width: 200px;
+    height: 200px;
 }
