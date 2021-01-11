@@ -9,6 +9,9 @@
 
 /* Created class to confine img to specific dimensions */
 .rounded.float-left {
-    margin: auto;
+    max-width: 80%;
+}
+
+.rounded.float-right {
     max-width: 80%;
 }
