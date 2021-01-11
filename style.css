@@ -13,6 +13,10 @@ body {
     color: ghostwhite;
 }
 
+.contact-container {
+    
+}
+
 /* Navbar selector to edit */
 .navbar.navbar-expand-lg.navbar-dark {
     background-color: rgba(220, 20, 20, 0.438);
