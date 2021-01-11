@@ -9,7 +9,7 @@ body {
 
 /* Change page container elements */
 .container {
-    
+    background-color: firebrick;
 }
 
 /* Navbar selector to edit */
