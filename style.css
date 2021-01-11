@@ -19,6 +19,11 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Edit max img-thumbnail size */
+.img-thumbnail {
+    
+}
+
 /* Created class to confine img to specific dimensions, etc */
 .rounded.float-start {
     margin: auto;
