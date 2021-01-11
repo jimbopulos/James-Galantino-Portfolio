@@ -52,25 +52,30 @@
       </nav>
       <!-- Added section tag to contain page content -->
       <section class="container">
-          <!-- Imported form code from bootstrap -->
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+          <!-- Adopted and edited code from bootstrap -->
+          <!-- Created row and col to place form inside of -->
+          <div class="row">
+            <div class="col-md-3">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="Type a message here" rows="3"></textarea>
+                      </div>
+                      <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <br>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <br>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="Type a message here" rows="3"></textarea>
-              </div>
-              <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          </div>
       </section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
