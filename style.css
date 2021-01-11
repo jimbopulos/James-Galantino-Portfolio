@@ -21,7 +21,8 @@ body {
 
 /* Edit max img-thumbnail size */
 .img-thumbnail {
-    
+    max-width: 40%;
+    height: auto;
 }
 
 /* Created class to confine img to specific dimensions, etc */
