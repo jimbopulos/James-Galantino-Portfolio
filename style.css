@@ -33,7 +33,7 @@ form {
 
 /* Navbar main name element */
 .navbar-brand {
-    
+    padding: 8px;
 }
 
 /* Added pseudoclass for navbar visited */
