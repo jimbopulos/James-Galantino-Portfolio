@@ -48,6 +48,11 @@ form {
     margin: 10px;
 }
 
+/* Change Submit button elements */
+.btn.btn-primary {
+    
+}
+
 /* Adjust portfolio container elements */
 #port-container {
     padding-bottom: 20px;
