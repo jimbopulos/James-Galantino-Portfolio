@@ -56,8 +56,9 @@ form {
 /* Edit max img-thumbnail size */
 .img-thumbnail {
     max-width: 40%;
-    max-height: auto;
-    float: left;
+    height: auto;
+    margin: auto;
+    float:left;
 }
 
 /* Created class to confine img to specific dimensions, etc */
