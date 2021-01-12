@@ -40,6 +40,7 @@ form {
 .navbar-brand,
 .nav-item:hover {
     background-color: rgba(220, 20, 20, 0.438);
+    border-radius: 5px;
 }
 
 /* Edit max img-thumbnail size */
