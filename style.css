@@ -50,7 +50,10 @@ form {
 
 /* Change Submit button elements */
 .btn.btn-primary {
-    
+    background-color: lightcoral;
+    border-style: solid;
+    border-color: ghostwhite;
+    border-width: 3px;
 }
 
 /* Adjust portfolio container elements */
