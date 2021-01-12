@@ -106,18 +106,14 @@ footer {
 /* Added media query to override css rules */
 @media (min-width: 400px) {
 
-    .container {
-        
-    }
-
     #port-container {
         float: none;
         margin: auto;
         width: 85%;
     }
-
+/* Added class to edit float start and end class */
     .rounded.float-start,
     .rounded.float-end {
-
+        
     }
 }
