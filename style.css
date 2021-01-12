@@ -4,7 +4,12 @@
 
 /* Change page body elements */
 body {
-    background-color:  rgba(220, 20, 20, 0.438);;
+    background-color:  rgba(220, 20, 20, 0.438);
+}
+
+/* Change h1 elements */
+h1 {
+    
 }
 
 /* Change page p elements */
