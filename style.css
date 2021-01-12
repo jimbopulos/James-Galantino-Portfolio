@@ -28,6 +28,8 @@ footer {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: ghostwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Change page container elements */
