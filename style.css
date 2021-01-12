@@ -31,6 +31,11 @@ form {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Navbar main name element */
+.navbar-brand {
+    
+}
+
 /* Added pseudoclass for navbar visited */
 .navbar-brand:visited {
     background-color: rgba(220, 20, 20, 0.438);
