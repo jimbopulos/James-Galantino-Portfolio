@@ -6,6 +6,6 @@ Although CSS was used to add selectors for formatting and changing aesthetic ele
 
 Attached links:
 
->* [James-Galantino-Portfolio Repository](https://github.com/jimbopulos/James-Galantino-Portfolio)
+* [James-Galantino-Portfolio Repository](https://github.com/jimbopulos/James-Galantino-Portfolio)
 
->* [James-Galantino-Portfolio URL](https://jimbopulos.github.io/James-Galantino-Portfolio/)
+* [James-Galantino-Portfolio URL](https://jimbopulos.github.io/James-Galantino-Portfolio/)
