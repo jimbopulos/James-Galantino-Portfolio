@@ -37,6 +37,11 @@ form {
     background-color: rgba(220, 20, 20, 0.438);
 }
 
+/* Added pseudoclass for navbar visited */
+.navbar-brand:visited {
+    
+}
+
 /* Edit max img-thumbnail size */
 .img-thumbnail {
     max-width: 40%;
