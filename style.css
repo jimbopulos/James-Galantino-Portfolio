@@ -67,8 +67,9 @@ form {
     border-width: 2px;
 }
 
+/* Added psuedo class for Submit button */
 .btn.btn-primary:hover {
-    
+    background-color: darkred;
 }
 
 /* Adjust portfolio container elements */
