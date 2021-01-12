@@ -12,17 +12,17 @@ p {
     padding-top: 10px;
 }
 
+/* Change form elements */
+form {
+    padding-bottom: 40px;
+}
+
 /* Change page container elements */
 .container {
     background-color: firebrick;
     color: ghostwhite;
     border-radius: 5px;
     margin-top: 50px;
-}
-
-/* Change form elements */
-form {
-    padding-bottom: 40px;
 }
 
 /* Navbar selector to edit */
@@ -46,4 +46,9 @@ form {
     border: 5px ghostwhite;
     border-style: solid;
     margin: 10px;
+}
+
+/* Adjust portfolio container elements */
+#port-container {
+    padding-bottom: 20px;
 }
