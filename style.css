@@ -7,6 +7,11 @@ body {
     background-color:  rgba(220, 20, 20, 0.438);;
 }
 
+/* Change page p elements */
+p {
+    padding-top: 10px;
+}
+
 /* Change page container elements */
 .container {
     background-color: firebrick;
@@ -14,6 +19,7 @@ body {
     border-radius: 5px;
 }
 
+/* Change form elements */
 form {
     padding-bottom: 40px;
 }
