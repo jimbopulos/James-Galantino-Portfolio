@@ -105,6 +105,11 @@ footer {
 
 /* Added media query to override css rules */
 @media (min-width: 400px) {
+
+    .container {
+        
+    }
+
     #port-container {
         float: none;
         margin: auto;
@@ -113,6 +118,6 @@ footer {
 
     .rounded.float-start,
     .rounded.float-end {
-        
+
     }
 }
