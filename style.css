@@ -67,11 +67,11 @@ footer {
 }
 
 /* Edit max img-thumbnail size */
-.img-thumbnail {
+#img-fluid {
     max-width: 40%;
     height: auto;
     margin: auto;
-    float:left;
+    float: left;
 }
 
 /* Created class to confine img to specific dimensions, etc */
@@ -98,4 +98,14 @@ footer {
 /* Adjust portfolio container elements */
 #port-container {
     padding-bottom: 20px;
+}
+
+/* Added media query to override css rules */
+@media (min-width: 400px) {
+
+    #port-container {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
