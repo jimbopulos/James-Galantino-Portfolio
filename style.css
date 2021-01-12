@@ -114,6 +114,6 @@ footer {
 /* Added class to edit float start and end class */
     .rounded.float-start,
     .rounded.float-end {
-        
+        float: none;
     }
 }
