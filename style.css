@@ -103,6 +103,12 @@ footer {
     padding-bottom: 20px;
 }
 
+/* Added media query to override css rules */
 @media (min-width: 400px) {
-    
+    #port-container {
+        float: none;
+        margin: auto;
+        width: 85%;
+
+    }
 }
