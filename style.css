@@ -109,6 +109,10 @@ footer {
         float: none;
         margin: auto;
         width: 85%;
+    }
 
+    .rounded.float-start,
+    .rounded.float-end {
+        
     }
 }
