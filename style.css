@@ -57,6 +57,7 @@ form {
 .img-thumbnail {
     max-width: 40%;
     height: auto;
+    float: left;
 }
 
 /* Created class to confine img to specific dimensions, etc */
