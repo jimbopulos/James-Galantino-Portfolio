@@ -31,15 +31,15 @@ form {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Added pseudoclass for navbar visited */
+.navbar-brand:visited {
+    background-color: rgba(220, 20, 20, 0.438);
+}
+
 /* Added pseudoclasses for navbar button hover */
 .navbar-brand,
 .nav-item:hover {
     background-color: rgba(220, 20, 20, 0.438);
-}
-
-/* Added pseudoclass for navbar visited */
-.navbar-brand:visited {
-    
 }
 
 /* Edit max img-thumbnail size */
@@ -65,6 +65,10 @@ form {
     border-style: solid;
     border-color: ghostwhite;
     border-width: 2px;
+}
+
+.btn.btn-primary:hover {
+    
 }
 
 /* Adjust portfolio container elements */
