@@ -42,8 +42,9 @@ form {
     margin: auto;
     width: 200px;
     height: 200px;
-    border: 3px ghostwhite;
+    border: 5px ghostwhite;
     border-style: solid;
+    margin: 10px;
 }
 
 /* Created class to confine img to specific dimensions, etc */
@@ -51,6 +52,7 @@ form {
     margin: auto;
     width: 200px;
     height: 200px;
-    border: 3px ghostwhite;
+    border: 5px ghostwhite;
     border-style: solid;
+    margin: 10px;
 }
