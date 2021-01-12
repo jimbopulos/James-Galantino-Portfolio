@@ -22,6 +22,11 @@ form {
     padding-bottom: 40px;
 }
 
+/* Change footer elements */
+footer {
+    
+}
+
 /* Change page container elements */
 .container {
     background-color: firebrick;
