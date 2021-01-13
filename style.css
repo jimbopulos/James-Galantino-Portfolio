@@ -67,10 +67,7 @@ footer {
 }
 
 /* Edit max img-thumbnail size */
-.img-thumbnail {
-    max-width: 40%;
-    height: auto;
-    margin: auto;
+.img-fluid {
     float: left;
 }
 
