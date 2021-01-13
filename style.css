@@ -41,8 +41,6 @@ footer {
     color: ghostwhite;
     border-radius: 5px;
     margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 /* Navbar selector to edit */
@@ -100,14 +98,4 @@ footer {
 /* Adjust portfolio container elements */
 #port-container {
     padding-bottom: 20px;
-}
-
-/* Added media query to override css rules */
-@media (min-width: 400px) {
-
-    #port-container {
-        width: 85%;
-        margin-right: auto;
-        margin-left: auto;
-    }
 }
