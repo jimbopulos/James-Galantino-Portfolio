@@ -4,6 +4,7 @@
 
 /* Change page body elements */
 body {
+    background-image: url("images/red-star-background.jpg");
     background-color:  rgba(220, 20, 20, 0.438); 
 }
 
