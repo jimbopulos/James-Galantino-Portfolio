@@ -4,7 +4,7 @@
 
 /* Change page body elements */
 body {
-    background-color:  rgba(220, 20, 20, 0.438);
+    background-color:  rgba(220, 20, 20, 0.438); 
 }
 
 /* Change h1 elements */
@@ -77,7 +77,6 @@ footer {
 
 /* Created class to confine img to specific dimensions, etc */
 .rounded {
-    margin: auto;
     border: 5px ghostwhite;
     border-style: solid;
     margin: 10px 0;
