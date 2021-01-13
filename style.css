@@ -61,7 +61,7 @@ footer {
 
 /* Added pseudoclasses for navbar button hover */
 .navbar-brand,
-.nav-item:hover {
+.nav-item-btn:hover {
     background-color: rgba(220, 20, 20, 0.438);
     border-radius: 5px;
 }
