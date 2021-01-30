@@ -115,7 +115,6 @@ footer {
   width: 90%;
 }
 
-/* .project-link {
-  position: absolute;
-  margin-bottom: 10px;
-} */
+.portfolio {
+  justify-content: space-between;
+}
