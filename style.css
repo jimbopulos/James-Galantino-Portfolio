@@ -1,102 +1,114 @@
 * {
-    border-style: border-box;
+  border-style: border-box;
 }
 
 /* Change page body elements */
 body {
-    background-image: url("images/red-star-background.jpg");
-    background-color:  rgba(220, 20, 20, 0.26); 
+  background-image: url("images/red-star-background.jpg");
+  background-color: rgba(220, 20, 20, 0.26);
 }
 
 /* Change h1 elements */
 h1 {
-    padding: 5px;
+  padding: 5px;
 }
 
 /* Change page p elements */
 p {
-    padding-top: 10px;
+  padding-top: 10px;
+}
+
+/* Change page a elements */
+a {
+  color: white;
+}
+
+/* Hover pseudoclass for links */
+a:hover {
+  color: lightsteelblue;
 }
 
 /* Change form elements */
 form {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 /* Change footer elements */
 footer {
-    background-color: #a00a10;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
-    color: ghostwhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 60%;
-    margin-bottom: 0px;
+  background-color: #a00a10;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  color: ghostwhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60%;
+  margin-bottom: 0px;
 }
 
 /* Change page container elements */
 .container {
-    background-color: firebrick;
-    color: ghostwhite;
-    border-radius: 5px;
-    margin-top: 50px;
+  background-color: firebrick;
+  color: ghostwhite;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 
 /* Navbar selector to edit */
 .navbar.navbar-expand-lg.navbar-dark {
-    background-color: rgba(220, 20, 20, 0.438);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(220, 20, 20, 0.438);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Navbar main name element */
 .navbar-brand {
-    padding: 8px;
+  padding: 8px;
 }
 
 /* Added pseudoclass for navbar visited */
 .navbar-brand:visited {
-    background-color: rgba(220, 20, 20, 0.438);
+  background-color: rgba(220, 20, 20, 0.438);
 }
 
 /* Added pseudoclasses for navbar button hover */
 .navbar-brand,
 .nav-item-btn:hover {
-    background-color: rgba(220, 20, 20, 0.438);
-    border-radius: 5px;
+  background-color: rgba(220, 20, 20, 0.438);
+  border-radius: 5px;
 }
 
 /* Edit max img-fluid elements */
 .img-fluid {
-    float: left;
-    border: 5px ghostwhite;
-    border-style: solid;
-    margin-bottom: 15px;
-    border-radius: 5px;
+  float: left;
+  border: 5px ghostwhite;
+  border-style: solid;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 /* Created class to confine img to specific dimensions, etc */
 .rounded {
-    border: 5px ghostwhite;
-    border-style: solid;
-    margin: 10px 0;
+  border: 5px ghostwhite;
+  border-style: solid;
+  margin: 10px 0;
 }
 
 /* Change Submit button elements */
 .btn.btn-primary {
-    background-color: lightcoral;
-    border-style: solid;
-    border-color: ghostwhite;
-    border-width: 2px;
+  background-color: lightcoral;
+  border-style: solid;
+  border-color: ghostwhite;
+  border-width: 2px;
 }
 
 /* Added psuedo class for Submit button */
 .btn.btn-primary:hover {
-    background-color: darkred;
+  background-color: darkred;
 }
 
 /* Adjust portfolio container elements */
 #port-container {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
