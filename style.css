@@ -53,6 +53,7 @@ footer {
   color: ghostwhite;
   border-radius: 5px;
   margin-top: 50px;
+  width: 90%;
 }
 
 /* Navbar selector to edit */
@@ -111,7 +112,10 @@ footer {
 /* Adjust portfolio container elements */
 #port-container {
   padding-bottom: 20px;
+  width: 90%;
 }
 
-.portfolio {
-}
+/* .project-link {
+  position: absolute;
+  margin-bottom: 10px;
+} */
