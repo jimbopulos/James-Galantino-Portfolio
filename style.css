@@ -4,6 +4,7 @@
 
 /* Change page body elements */
 body {
+  height: 100%;
   background-image: linear-gradient(
     to bottom right,
     rgb(73, 177, 218),
@@ -37,20 +38,6 @@ form {
   padding-bottom: 40px;
 }
 
-/* Change footer elements */
-footer {
-  background-color: #a00a10;
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 22px;
-  color: ghostwhite;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 60%;
-  margin-bottom: 0px;
-}
-
 /* Change page container elements */
 .container {
   background-color: rgba(0, 141, 235, 0.795);
@@ -66,8 +53,10 @@ footer {
 /* Navbar selector to edit */
 .navbar.navbar-expand-lg.navbar-dark {
   background-color: rgba(255, 255, 255, 0.63);
+  border-bottom: 2px solid white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  box-shadow: 0px 1px 5px 2px black;
 }
 
 /* Navbar main name element */
@@ -96,6 +85,10 @@ footer {
   border-radius: 5px;
 }
 
+.img-fluid:hover {
+  cursor: pointer;
+}
+
 /* Created class to confine img to specific dimensions, etc */
 .rounded {
   border: 5px ghostwhite;
@@ -105,21 +98,48 @@ footer {
 
 /* Change Submit button elements */
 .btn.btn-primary {
-  background-color: lightcoral;
+  background-color: rgb(73, 177, 218);
   border-style: solid;
   border-color: ghostwhite;
   border-width: 2px;
+  padding: 10px;
 }
 
 /* Added psuedo class for Submit button */
 .btn.btn-primary:hover {
-  background-color: darkred;
+  background-color: rgb(0, 141, 235);
 }
 
 /* Adjust portfolio container elements */
 #port-container {
   padding-bottom: 20px;
   width: 90%;
+  min-height: 100%;
+  margin-bottom: -20%;
+}
+
+#port-container:after {
+  content: "";
+  display: block;
+}
+
+footer,
+#port-container:after {
+  height: 20%;
+}
+
+/* Change footer elements */
+footer {
+  background-color: rgba(0, 141, 235, 0.795);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  color: ghostwhite;
+  border-top: 2px solid white;
+  padding: 1rem;
+  margin-top: 60%;
+  margin-bottom: 0px;
 }
 
 .portfolio {
