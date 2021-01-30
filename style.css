@@ -4,8 +4,12 @@
 
 /* Change page body elements */
 body {
-  background-image: url("images/red-star-background.jpg");
-  background-color: rgba(220, 20, 20, 0.26);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(73, 177, 218),
+    rgb(0, 141, 235),
+    rgb(255, 255, 255)
+  );
 }
 
 /* Change h1 elements */
@@ -25,7 +29,7 @@ a {
 
 /* Hover pseudoclass for links */
 a:hover {
-  color: lightsteelblue;
+  color: rgba(0, 47, 255, 0.726);
 }
 
 /* Change form elements */
@@ -49,16 +53,19 @@ footer {
 
 /* Change page container elements */
 .container {
-  background-color: firebrick;
+  background-color: rgba(0, 141, 235, 0.795);
   color: ghostwhite;
   border-radius: 5px;
   margin-top: 50px;
   width: 90%;
+  border: 5px solid white;
+  box-shadow: -5px 6px 10px 1px black;
+  padding: 1em;
 }
 
 /* Navbar selector to edit */
 .navbar.navbar-expand-lg.navbar-dark {
-  background-color: rgba(220, 20, 20, 0.438);
+  background-color: rgba(255, 255, 255, 0.63);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -70,13 +77,13 @@ footer {
 
 /* Added pseudoclass for navbar visited */
 .navbar-brand:visited {
-  background-color: rgba(220, 20, 20, 0.438);
+  background-color: rgba(0, 141, 235, 0.795);
 }
 
 /* Added pseudoclasses for navbar button hover */
 .navbar-brand,
 .nav-item-btn:hover {
-  background-color: rgba(220, 20, 20, 0.438);
+  background-color: rgb(0, 141, 235);
   border-radius: 5px;
 }
 
