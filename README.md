@@ -8,8 +8,8 @@ Although CSS was used to add selectors for formatting and changing aesthetic ele
 
 ## Technology
 
-![HTML5](http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png)
-![CSS3](https://e7.pngegg.com/pngimages/188/673/png-clipart-cascading-style-sheets-css3-bootstrap-valid-blue-angle.png)
+- HTML
+- CSS + Bootstrap framework
 
 ## License
 
