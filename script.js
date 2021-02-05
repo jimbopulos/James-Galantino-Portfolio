@@ -16,8 +16,8 @@ dayPlanner.addEventListener('click', function() {
     window.open(plannerURL);
 })
 
-var passwordgenURL = document.getElementById('password-gen')
+var passwordGen = document.getElementById('password-gen')
 
-passwordgenURL.addEventListener('click', function() {
+passwordGen.addEventListener('click', function() {
     window.open(passwordgenURL);
 })
