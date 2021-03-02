@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 * {
   border-style: border-box;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* Change page body elements */
@@ -20,6 +23,7 @@ h1 {
 
 /* Change page p elements */
 p {
+  font-size: 18px;
   padding-top: 10px;
 }
 
@@ -35,7 +39,9 @@ a:hover {
 
 /* Change form elements */
 form {
-  padding-bottom: 40px;
+  padding: 5%;
+  padding-bottom: 10%;
+  font-size: larger;
 }
 
 /* Change page container elements */
@@ -43,9 +49,9 @@ form {
   background-color: rgba(0, 141, 235, 0.795);
   color: ghostwhite;
   border-radius: 5px;
-  margin-top: 5%;
+  margin-top: 7.5%;
   width: 90%;
-  border: 5px solid white;
+  border: 3px solid white;
   box-shadow: 0 0 20px black;
   padding: 1em;
 }
@@ -54,9 +60,11 @@ form {
 .navbar.navbar-expand-lg.navbar-dark {
   background-color: rgba(255, 255, 255, 0.63);
   border-bottom: 2px solid white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   box-shadow: 0 0 20px black;
+}
+
+.navbar {
+  font-size: large;
 }
 
 /* Navbar main name element */
@@ -125,16 +133,25 @@ footer,
   height: 20%;
 }
 
-/* Change footer elements */
-footer {
+.contact-footer {
+  position: relative;
   background-color: rgba(0, 141, 235, 0.795);
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-size: 22px;
   color: ghostwhite;
   border-top: 2px solid white;
   padding: 1rem;
-  margin-top: 60%;
-  margin-bottom: 0px;
+  margin-top: 80%;
+}
+
+/* Change footer elements */
+footer {
+  position: relative;
+  background-color: rgba(0, 141, 235, 0.795);
+  text-align: center;
+  font-size: 22px;
+  color: ghostwhite;
+  border-top: 2px solid white;
+  padding: 1rem;
+  margin-top: 50%;
 }
