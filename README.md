@@ -10,7 +10,7 @@ Although CSS was used to add selectors for formatting and changing aesthetic ele
 
 ## Usage
 
-- Navigate through each page via the `Contact`, `Portfolio`, and `About` tabs in the navbar.
+- Navigate through each page via the `Portfolio` and `About` tabs in the navbar.
 
 ## Technology
 
