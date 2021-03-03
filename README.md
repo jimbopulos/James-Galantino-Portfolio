@@ -4,7 +4,7 @@
 
 ## Description
 
-Welcome to my responsive portfolio page. A navigation bar was installed at the top of each page to cycle between the `Contact`, `Portfolio`, and `About` pages; the latter also functioning as a home page.
+Welcome to my responsive portfolio page. A navigation bar was installed at the top of each page to cycle between the `Portfolio` and `About` pages.
 
 Although CSS was used to add selectors for formatting and changing aesthetic elements for each page, Bootstrap functioned as the primary actor in taking into consideration varying viewport sizes per device access.
 
